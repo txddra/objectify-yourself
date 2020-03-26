@@ -1,18 +1,18 @@
-const myCodeImmersivesObj = {
+.const myCodeImmersivesObj = {
   objectify: 'me'
 };
 
 // Set the value of property `objectify` to be "yourself".
-
+myCodeImmersivesObj.objectify = 'yourself';
 
 // Add the new property `isAnExcellentObject` and set it to `true`.
 
-
+myCodeImmersivesObj.isAnExcellentObject = 'true';
 // Add the property `term` and set it to 1.
-
+myCodeImmersivesObj.term = 1;
 
 // Now add 1 to the value of your object's `term` property and put that new value back in your object's `term`.
-
+myCodeImmersivesObj.term  = myCodeImmersivesObj.term + 1;
 
 // Now add a new property called `currentScore` and set it to 3.
 
